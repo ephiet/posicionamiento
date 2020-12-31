@@ -1,0 +1,61 @@
+.ejercicio1 h1 {
+  color: red;
+  position: relative;
+  left: 200px;
+  top: 150px;
+}
+
+.ejercicio2 .static {
+  border: solid;
+  border-color: greenyellow;
+  position: static;
+}
+
+.ejercicio2 .relative {
+  border: solid;
+  border-color: greenyellow;
+  position: relative;
+  left: 50px;
+}
+
+.ejercicio3 .relative {
+  border: solid;
+  border-color: greenyellow;
+  position: relative;
+  width: 400px;
+  height: 200px;
+}
+
+.ejercicio3 .absolute {
+  border: solid;
+  border-color: greenyellow;
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  top: 70px;
+  left: 195px;
+}
+
+.ejercicio4 .sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: greenyellow;
+  padding: 5px;
+}
+
+.ejercicio5 {
+  position: relative;
+}
+
+.ejercicio5 img {
+  width: 500px;
+  opacity: 80%;
+}
+
+.ejercicio5 p {
+  position: absolute;
+  top: 5px;
+  left: 15px;
+}
+/*# sourceMappingURL=style.css.map */
